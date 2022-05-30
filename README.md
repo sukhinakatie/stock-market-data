@@ -1,10 +1,52 @@
+# Project Description
+
+This is the web application I developed for my university project.
+The application is showing the actual stockdata of NASDAQ 100,fetched from APIs:<br>
+https://site.financialmodelingprep.com/
+
+https://www.alphavantage.co/
+
+The Main page
+
+<img width="1440" alt="Снимок экрана 2022-05-15 в 03 17 08" src="https://user-images.githubusercontent.com/90744662/170912643-e5c2304f-f0af-4037-8cd9-b28cbd354298.png">
+
+The Stocks page, where you can filter stocks by name, symbol and also by industry by picking one of the industries filters at the top:
+
+<img width="1440" alt="Снимок экрана 2022-05-15 в 03 18 42" src="https://user-images.githubusercontent.com/90744662/170912813-e1495ec7-4162-408e-a8a7-5fe9bc4e9dab.png">
+
+industries filter:
+
+<img width="1367" alt="Снимок экрана 2022-05-15 в 20 05 21" src="https://user-images.githubusercontent.com/90744662/170912914-19530909-d029-46c9-8da5-611331ad006a.png">
+
+There is also a possibility to look through the picked stock dashboard with the more etailed information:
+
+<img width="1440" alt="Снимок экрана 2022-05-15 в 20 19 25" src="https://user-images.githubusercontent.com/90744662/170913251-188b844d-4302-4baa-a2ee-50cbbd777c88.png">
+
+If needed - date can be adjusted as well via the Date filter
+(<i>Words at the bottom of the calendar stand for 'delete' and 'today' from left to right. Language depends on your local machine settings.</i>):
+
+<img width="370" alt="Снимок экрана 2022-05-15 в 20 16 42 1" src="https://user-images.githubusercontent.com/90744662/170913328-18454130-9be7-4f8d-878f-fda7b4f71551.png">
+
+Open and Close prices can be filtered and visible by hovering the specific dot:
+
+<img width="1440" alt="Снимок экрана 2022-05-15 в 20 21 58" src="https://user-images.githubusercontent.com/90744662/170913584-c7ee564a-abbe-4954-814e-849c73bd407a.png">
+
+Some of the design process templates I created before the final itteration. I kept it simple as my time was limited and I was more concerned about learning the developing side of the process, rather than designing as I have a 6-year experience in design and illustration.
+
+<img width="979" alt="Снимок экрана 2022-05-30 в 10 51 20" src="https://user-images.githubusercontent.com/90744662/170914014-5e7d3058-86bd-4335-a725-3dbd0c844d1a.png">
+<img width="795" alt="Снимок экрана 2022-05-15 в 12 35 25" src="https://user-images.githubusercontent.com/90744662/170913872-44faefab-15c7-46d9-b0b0-fcd556bc0dab.png">
+<img width="794" alt="Снимок экрана 2022-05-15 в 12 35 36" src="https://user-images.githubusercontent.com/90744662/170913876-ff59aa52-434b-47ad-a56f-ce41da085ea5.png">
+
+
+
+In the project directory, you can run:
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
-In the project directory, you can run:
+
 
 ### `npm start`
 
