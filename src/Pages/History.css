@@ -1,0 +1,15 @@
+.history {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.history .date-filter {
+    padding: 1rem 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.history .date-filter > * {
+    margin: .5rem;
+}

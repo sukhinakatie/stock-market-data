@@ -1,4 +1,6 @@
-import { Flex, Box, Link, HStack, Img} from "@chakra-ui/react";
+import {Flex, Box, HStack, Button, Image} from "@chakra-ui/react";
+import {Link} from "react-router-dom";
+
 
  {/*TEST*/}
 const Navbar = () => {
@@ -6,21 +8,19 @@ const Navbar = () => {
         <Flex
         flexDirection={"row"}
         flexWrap={"wrap"}
-        flex={1}
-        flexBasis={"400px"}
         >
-            
+
             <Box
             pt={"0.9rem"}
-            pl={"3rem"}           
-            width={"100rem"}
+            pl={"3rem"}
+            width={"100%"}
             height={"4rem"}
             backgroundColor={"#1c007b"}
                 >
                 <HStack
                 spacing={"2rem"}
                 >
-                   <Link
+                   <Button
                    pl={"0.5rem"}
                    pr={"0.5rem"}
                    pt={"0.2rem"}
@@ -33,8 +33,10 @@ const Navbar = () => {
                    border={"2px"}
                    borderColor={"purple.500"}
                    rounded={"0.5rem"}
-                   ><a href="/home">Home</a></Link>                   
-                   <Link
+                   >
+                       <Link to="/home">Home</Link>
+                   </Button>
+                   <Button
                    pl={"0.5rem"}
                    pr={"0.5rem"}
                    pt={"0.2rem"}
@@ -47,8 +49,10 @@ const Navbar = () => {
                    border={"2px"}
                    borderColor={"purple.500"}
                    rounded={"0.5rem"}
-                   ><a href="/stocks">Stocks</a></Link>
-                   <Link
+                   >
+                       <Link to="/stocks">Stocks</Link>
+                   </Button>
+                   {/*<Button
                    pl={"0.5rem"}
                    pr={"0.5rem"}
                    pt={"0.2rem"}
@@ -61,19 +65,22 @@ const Navbar = () => {
                    border={"2px"}
                    borderColor={"purple.500"}
                    rounded={"0.5rem"}
-                   ><a href="/quote">Quote</a></Link>
+                   >
+                       <Link to="/quote">Quote</Link>
+                   </Button>*/}
                    <Box
-                    position={"absolute"}  
-                    right={"2rem"}               
+                    position={"absolute"}
+                    right={"2rem"}
                     >
-                    <Link
+                    <Button
                         variant={"outline"}
                         fontWeight={"bold"}
-                        color={"white"}>
-                            <a href="/home">DataSeek</a>
-                    </Link>
+                        color={"white"}
+                    >
+                        <Link to="/home">DataSeek</Link>
+                    </Button>
                     </Box>
-                </HStack>    
+                </HStack>
             </Box>
         </Flex>
     );
